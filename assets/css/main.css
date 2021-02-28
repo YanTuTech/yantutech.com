@@ -27,28 +27,34 @@
     /* box-shadow: 0px 0px 5px 0px #ccc; */
 }
 .index-bk-1{
-    background-image: url(../images/illustration/01.png);
-    background-position: 75% 50%;
+    background-image: url(../images/illustration/section1.png);
+    background-position: 100% 50%;
+    background-size: 45% auto;
+    /* background-size: 268px 194px; */
     background-repeat: no-repeat;
 }
 .index-bk-2{
-    background-image: url(../images/illustration/02.png);
-    background-position: 25% 50%;
+    background-image: url(../images/illustration/section2.png);
+    background-position: 0% 50%;
+    /* background-size: 237px 211px; */
     background-repeat: no-repeat;
 }
 .index-bk-3{
-    background-image: url(../images/illustration/01.png);
-    background-position: 75% 50%;
+    background-image: url(../images/illustration/section3.png);
+    background-position: 100% 100%;
+    background-size: 65% auto;
     background-repeat: no-repeat;
 }
 .index-bk-4{
-    background-image: url(../images/illustration/02.png);
-    background-position: 25% 50%;
+    background-image: url(../images/illustration/section4.png);
+    background-position: 0% 50%;
+    /* background-size: 237px 211px; */
     background-repeat: no-repeat;
 }
 .index-bk-5{
-    background-image: url(../images/illustration/01.png);
+    background-image: url(../images/illustration/section5.png);
     background-position: 75% 50%;
+    /* background-size: 333px 334px; */
     background-repeat: no-repeat;
 }
 
@@ -145,7 +151,12 @@ p.wilte{
     }
 }
 .bk-ind{
-    background-image: url(../images/illustration/01.png);
+    background-image: url(../images/illustration/contact.png);
+    background-size: 197px 164px;
     background-position: 10% 50%;
     background-repeat: no-repeat; 
+}
+
+.contact-card {
+    padding: 30px !important;
 }

@@ -682,7 +682,7 @@ progress {
     .container-md,
     .container-lg,
     .container-xl {
-        max-width: 1200px
+        max-width: 1000px
     }
 }
 
@@ -9692,7 +9692,7 @@ fieldset:disabled .btn {
 }
 
 .text-info {
-    color: #0DCAF0 !important
+    color: #3777F2 !important
 }
 
 .text-warning {
