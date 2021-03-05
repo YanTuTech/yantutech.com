@@ -26,7 +26,7 @@
     </div> -->
 
     <!-- Header Area Start Here -->
-    <header class="main-header-area header-transparent header_detail">
+    <header class="main-header-area header-transparent header-sticky">
         <!-- Main Header Area Start -->
         <div class="main-header">
             <div class="container">
@@ -35,6 +35,7 @@
                         <div class="header-logo d-flex align-items-center">
                             <a href="index.html">
                                 <img class="nonsticky-logo img-full" src="assets/images/scifig.png" alt="Header Logo">
+                                <img class="sticky-logo img-full" src="assets/images/scifig-white.png" alt="Header Logo">
                             </a>
                         </div>
                     </div>
@@ -82,16 +83,6 @@
                 </div>
                 <div class="off-canvas-inner">
                     <div class="offcanvas-widget-area">
-                        <!-- Start Serach Box -->
-                        <div class="search-box-wrap off-canvas-item">
-                            <form action="#" method="post">
-                                <input placeholder="Search..">
-                                <button class="btn-search"><i class="fa fa-search"></i>
-                                </button>
-                            </form>
-                        </div>
-                        <!-- End Search Box -->
-                        <!-- mobile menu start -->
                         <div class="mobile-navigation">
                             <!-- mobile menu navigation start -->
                             <nav>
@@ -103,11 +94,11 @@
                             </nav>
                             <!-- mobile menu navigation end -->
                         </div>
-                        
                     </div>
                 </div>
             </div>
         </aside>
+        <!-- off-canvas menu end -->
         <!-- off-canvas menu start -->
         <aside class="off-canvas-menu-wrapper" id="sideMenu">
             <div class="off-canvas-overlay"></div>
@@ -115,14 +106,6 @@
                 <div class="off-canvas-inner">
                     <!-- offcanvas widget area start -->
                     <div class="offcanvas-widget-area">
-                        <!-- Start Serach Box -->
-                        <div class="search-box-wrap off-canvas-item">
-                            <form action="#" method="post">
-                                <input placeholder="Search..">
-                                <button class="btn-search"><i class="fa fa-search"></i>
-                                </button>
-                            </form>
-                        </div>
                         <ul class="useful-link">
                             <li><a href="index.html">首页</a></li>
                             <li><a href="job_list.html">招聘信息</a></li>
@@ -139,53 +122,40 @@
         <!-- off-canvas menu end -->
     </header>
     <!-- Header Area End Here -->
+
+
+    <!-- 轮播图开始 -->
+    <div class="intro11-slider-wrap section">
+        <div class="intro11-slider swiper-container">
+            <div class="swiper-wrapper">
+                <div class="single-slide-wrapper swiper-slide slide-1 slide-bg-1 bg-position" style="background-image: url(assets/images/slider/banner3.jpg);">
+                    <!-- Intro Content Start -->
+                    <div class="slider-content text-center">
+                        <h2 class="title" data-splitting>加入有趣的团队</h2>
+                        <h2 class="title" data-splitting>成就非凡的梦想</h2>
+                    </div>
+                    <!-- Intro Content End -->
+                </div>
+                
+
+               
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <!-- 轮播图结束 -->
+
     <!-- 职业列表开始 -->
     <div class="job-list-content pt-1 pb-8">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 job-list-main">
-                    <!-- 职位详情-->
-                    <div class="job-list-item-box mt-6 mb-6 px-4 py-3 shadow bg-white rounded">
-                        
-                            <div class="job-box w-100">
-                                
-                                <h3 class="mr-3 my-4 font-weight-bold text-secondary">C#/WPF/VSTO 开发实习生</h3>
-                                <p class="mb-3">
-                                    <span class="mr-2 text-secondary">上海</span>
-                                    <span class="mr-2 text-secondary">1-3k</span>
-                                    <span class="mr-2 text-secondary">实习</span>
-                                </p>
-                                <h3 class="mr-3 my-4 font-weight-bold text-secondary">职位描述:</h3>
-                                <ol class="pl-3 mb-5">
-                                    <li class="text-secondary">负责 Microsoft Office 插件开发；</li>
-<li class="text-secondary">与后端工程师深入合作，在插件端合理调用服务器接口；</li>
-<li class="text-secondary">具有独立解决问题的能力，良好的团队合作意识和沟通能力。</li>
-                                </ol>
-                                <h3 class="mr-3 my-4 font-weight-bold text-secondary">职位要求:</h3>
-                                <ol class="pl-3 mb-5">
-                                    <li class="text-secondary">计算机相关专业，本科及以上在读大学生；</li>
-<li class="text-secondary">熟悉 C# 开发；</li>
-<li class="text-secondary">了解操作系统、数据库、计算机网络等基础理论。</li>
-                                </ol>
-                                <h3 class="mr-3 my-4 font-weight-bold text-secondary">加分项:</h3>
-                                <ol class="pl-3 mb-5">
-                                    <li class="text-secondary">有 WPF/VSTO 开发经验；</li>
-<li class="text-secondary">熟悉 Python、JavaScript、Java 语言中的一种或多种。</li>
-                                </ol>
-                                <p class="mb-8 text-secondary">
-                                    简历投递邮箱：<a href="mailto:hr@yantutech.com">hr@yantutech.com</a>
-                                </p>
-                            </div>
-                       
-                    </div>
-
-
+                    [info_list]
                 </div>
             </div>
         </div>
     </div>
-
-
 
 
 
@@ -205,6 +175,9 @@
                             沪ICP备2021003888号-1</p ></a>
                         <a target="_blank" href="https://beian.miit.gov.cn" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="assets/images/beian.png" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">沪公网安备 31011502017066号</p ></a>
                             
+                    </div>
+                    <div style="width:300px;margin:0 auto; padding:20px 0;">
+                        
                     </div>
                 </div>
                 <div class="col-md-8">
